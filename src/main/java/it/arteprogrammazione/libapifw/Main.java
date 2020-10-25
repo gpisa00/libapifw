@@ -12,15 +12,19 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-//        System.out.println("\n###### CUCINA TOP-DOWN ##########");
-//
-//        cuociProcedurale();
+        System.out.println("\n###### CUCINA TOP-DOWN (LIBRERIA) ##########");
 
-//        System.out.println("\n-------------------------------------------------");
-//
-//        System.out.println("\n###### CUCINA OOP ##########");
-//
-//        cuociOOP();
+        cuociProcedurale();
+
+        System.out.println("\n-------------------------------------------------");
+
+        System.out.println("\n###### CUCINA OOP (API) ##########");
+
+        cuociOOP();
+
+        System.out.println("\n-------------------------------------------------");
+
+        System.out.println("\n###### CUCINA FRAMEWORK (FRAMEWORK) ##########");
 
         Framework.startFramework(new PastaConcretaFW());
     }
