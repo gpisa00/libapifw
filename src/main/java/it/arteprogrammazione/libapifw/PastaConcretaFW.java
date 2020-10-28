@@ -13,6 +13,6 @@ public class PastaConcretaFW extends PastaAstrattaFW {
 
     @Override
     public void cuoci() {
-        System.out.println("Cuoci da PastaConcreta FW");
+        System.out.println("Cuoci da PastaConcretaFW");
     }
 }
