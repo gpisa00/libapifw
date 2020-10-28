@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println("\n###### CUCINA FRAMEWORK (FRAMEWORK) ##########");
 
-        Framework.startFramework(new PastaConcretaFW());
+        Framework.startFramework(new PastaConcretaFW("Rigatoni", "Rigatoni pasta corta",false, 15000L));
     }
 
     private static void cuociProcedurale() {
